@@ -120,7 +120,7 @@
 
 [[projects]]
   digest = "1:e1d89772287b2eff346890099ca1819a0c25df7dcf0a27c589166c3b6aca0cf7"
-  name = "github.com/lrills/helm-unittest"
+  name = "github.com/RaviDasari/helm-unittest"
   packages = [
     "unittest",
     "unittest/common",
@@ -265,11 +265,11 @@
   input-imports = [
     "github.com/bradleyjkemp/cupaloy",
     "github.com/fatih/color",
-    "github.com/lrills/helm-unittest/unittest",
-    "github.com/lrills/helm-unittest/unittest/common",
-    "github.com/lrills/helm-unittest/unittest/snapshot",
-    "github.com/lrills/helm-unittest/unittest/validators",
-    "github.com/lrills/helm-unittest/unittest/valueutils",
+    "github.com/RaviDasari/helm-unittest/unittest",
+    "github.com/RaviDasari/helm-unittest/unittest/common",
+    "github.com/RaviDasari/helm-unittest/unittest/snapshot",
+    "github.com/RaviDasari/helm-unittest/unittest/validators",
+    "github.com/RaviDasari/helm-unittest/unittest/valueutils",
     "github.com/mitchellh/mapstructure",
     "github.com/pmezard/go-difflib/difflib",
     "github.com/spf13/cobra",

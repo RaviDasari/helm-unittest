@@ -19,7 +19,7 @@ hookInstall: bootstrap build
 
 .PHONY: build
 build:
-	cp -r unittest ./vendor/github.com/lrills/helm-unittest/
+	cp -r unittest ./vendor/github.com/RaviDasari/helm-unittest/
 	go build -o untt -ldflags $(LDFLAGS) ./main.go
 
 .PHONY: dist
