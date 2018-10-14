@@ -28,9 +28,6 @@ jobs:
           paths:
             - /go/src/github.com/RaviDasari/helm-unittest/vendor
       - run:
-          name: Test
-          command: go test -v ./unittest/...
-      - run:
           name: Check formated
           command: "! gofmt -l . 2>&1 | read"
 
